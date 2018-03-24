@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
+
 
 namespace LibraryData.Models
 {
@@ -13,7 +12,7 @@ namespace LibraryData.Models
         public String Name { get; set; }
 
         [Required]
-        public String Descripton  { get; set; }
+        public String Description { get; set; }
 
     }
 }

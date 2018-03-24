@@ -156,7 +156,7 @@ namespace LibraryData.Migrations
                         .IsRequired()
                         .HasMaxLength(30);
 
-                    b.Property<DateTime>("OpentDate");
+                    b.Property<DateTime>("OpenDate");
 
                     b.Property<string>("Telephone")
                         .IsRequired();
@@ -213,7 +213,7 @@ namespace LibraryData.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Descripton")
+                    b.Property<string>("Description")
                         .IsRequired();
 
                     b.Property<string>("Name")
